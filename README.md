@@ -10,7 +10,9 @@ prog ::= decl ... decl
                                  
 decl ::= fundecl
 
-Function Declaration Structure A function declaration specifies the name of the function, its formal pa- rameter, parameter type, return type, and expression body. Functions are interpreted in call-by-value evaluation order. All functions must have different names (different functions may have the same formal parameter names).
+Function Declaration Structure:
+
+A function declaration specifies the name of the function, its formal pa- rameter, parameter type, return type, and expression body. Functions are interpreted in call-by-value evaluation order. All functions must have different names (different functions may have the same formal parameter names).
 
 fundecl ::= fun id ( id : tp ) : tp = exp 
 
