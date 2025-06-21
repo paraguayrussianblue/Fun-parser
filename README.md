@@ -1,5 +1,9 @@
 Fun is a new programming language. The details of the language is as described below.
 
+Previous Specifications:
+
+https://github.com/paraguayrussianblue/fun-lexer/blob/main/README.md
+
 Program Structure A program is a sequence of (mutually recursive) function and type declarations. The program structure is given by the following Backus–Naur form (BNF).
 
 prog ::= decl ... decl
@@ -81,7 +85,8 @@ so f(x)y is (f(x))y.
 • It is legal to use the name int as a function name, parameter name, or variable name; this does not
 interfere with its use as a type name.
 
-file infos
+File Infos:
+
 • lib/funpar.mly: parser specification
 
 • lib/absyn.ml: abstract syntax tree definition
