@@ -1,0 +1,5 @@
+(library
+ (name as2)
+ (flags (:standard -w -27 -w -39)))
+
+(ocamlyacc funpar)
