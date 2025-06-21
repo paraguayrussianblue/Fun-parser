@@ -4,7 +4,9 @@ Previous Specifications:
 
 https://github.com/paraguayrussianblue/fun-lexer/blob/main/README.md
 
-Program Structure A program is a sequence of (mutually recursive) function and type declarations. The program structure is given by the following Backus–Naur form (BNF).
+Program Structure:
+
+A program is a sequence of (mutually recursive) function and type declarations. The program structure is given by the following Backus–Naur form (BNF).
 
 prog ::= decl ... decl
                                  
